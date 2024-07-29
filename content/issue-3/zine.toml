@@ -1,0 +1,83 @@
+
+slug = "issue-3"
+number = 3
+title = "Issue 3"
+cover = "/static/ferris/3.jpg"
+pub_date = "2023-05-04"
+publish = true
+
+[[article]]
+file = "how-rse-index-top-20k-crates.md"
+title = "How Rust Search Extension Indexes Top 20k Crates"
+author = "folyd"
+pub_date = "2023-03-11"
+topic = ["engineering"]
+publish = true
+featured = true
+
+[[article]]
+file = "robjtede.md"
+title = "Interview with @robjtede"
+author = ["folyd", "robjtede"]
+topic = ["interview"]
+pub_date = "2023-03-20"
+publish = true
+featured = true
+
+[[article]]
+file = "javascript-compiler.md"
+title = "Pursuit of Performance on Building a JavaScript Compiler"
+author = "boshen"
+topic = []
+pub_date = "2023-03-22"
+publish = true
+featured = true
+
+[[article]]
+file = "understand-unsafe-rust.md"
+title = "Comprehensive Understanding of Unsafe Rust"
+author = "handongzhang"
+topic = ["unsafe-rust", "tutorial"]
+pub_date = "2023-04-05"
+publish = true
+featured = true
+
+[[article]]
+file = "is-zig-safer-than-unsafe-rust.md"
+title = "Is Zig safer than Unsafe Rust?"
+author = "handongzhang"
+topic = ["unsafe-rust"]
+pub_date = "2023-04-05"
+publish = true
+featured = true
+
+[[article]]
+file = "optimizing-compilation-for-databend.md"
+title = "Optimizing Compilation for Databend"
+author = ["PsiACE", "databend"]
+topic = ["database", "optimization"]
+pub_date = "2023-04-20"
+publish = true
+featured = true
+canonical = "https://databend.rs/blog/2023/04/20/optimizing-compilation-for-databend"
+i18n.zh = { file = "optimizing-compilation-for-databend-zh.md", title = "Databend 中的 Rust 编译时间优化小技巧"}
+
+[[article]]
+file = "task-stats-alloc.md"
+title = "TaskStatsAlloc: Fine-grained memory statistics in Rust"
+author = "tennyzhuang"
+topic = ["memory", "allocator"]
+pub_date = "2023-04-22"
+featured = true
+publish = true
+
+[[article]]
+file = "bridging-async-and-sync-in-rust.md"
+title = "Bridging Async and Sync Rust Code - A lesson learned while working with Tokio"
+author = ["lei", "greptime-team"]
+topic = ["async", "database", "tokio"]
+pub_date = "2023-03-13"
+publish = true
+featured = true
+canonical = "https://greptime.com/blogs/2023-03-09-bridging-async-and-sync-rust"
+i18n.zh = { file = "bridging-async-and-sync-in-rust-zh.md", title = "如何在同步的 Rust 方法中调用异步代码 - Tokio 使用中的几点教训" }

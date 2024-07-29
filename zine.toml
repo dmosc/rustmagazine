@@ -6,7 +6,8 @@ description = "A publication dedicated to the Rust programming language."
 edit_url = "https://github.com/rustmagazine/rustmagazine/edit/main"
 menu = [
     { name = "About", url = "/about" },
-    { name = "GitHub", url = "https://github.com/rustmagazine/rustmagazine" },
+    { name = "FAQ", url = "/faq" },
+    { name = "Sponsor us", url = "/sponsor" },
 ]
 social_image = "/static/bg.jpeg"
 
@@ -28,23 +29,26 @@ highlight_theme = "ayu-light"
 [topics]
 announcement = {}
 interview = {}
+show-magazine = { name = "Show Magazine", description = "This is a dedicated space for Rustaceans to showcase their projects and crates to the larger Rust community. Similar to [Show HN](https://news.ycombinator.com/shownew) or [Show /r/rust](https://www.google.com.hk/search?q=site%3Areddit.com+show+%2Fr%2Frust), **#show-magazine** is an opportunity for developers to share their works-in-progress, completed projects, and upcoming Rust-related events with the community." }
 game = { name = "Game development", description = "Topic of rust game development." }
 pr-demystifying = { name = "PR Demystifying", description = "Topic of PR demystifying in Rust community." }
 optimization = {}
 async = {}
 database = {}
+optimizer = {}
+tokio = { description = "A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language" }
 business = { description = "Rust in Business" }
 tutorial = {}
+memory = {}
+allocator = {}
+unsafe-rust = { name = "Unsafe Rust", description = "Topic of unsafe rust." }
+engineering = {}
 
 # Authors declare below
 [authors]
-rust-magazine = { name = "The Editorial Team", editor = true, bio = "The magazine editorial team" }
+rust-magazine = { name = "The Editorial Team", editor = true, team = true, bio = "The magazine editorial team" }
 lcrossman = { name = "LCrossman", editor = true }
-macko76 = { editor = true }
 HandongZhang = { name = "Handong Zhang", editor = true }
-pau1tuck = { name = "Paul Tuck", editor = true }
-mfrw = { editor = true }
-malagant = { name = "Michael Johann", editor = true, avatar = '/static/avatar/malagant.png' }
 skyzh = { avatar = "/static/avatar/skyzh.jpeg" }
 
 [authors.folyd]
@@ -67,6 +71,9 @@ bio = """
 name = "Weihang Lo"
 avatar = "/static/avatar/weihanglo.png"
 
+[authors.sunli]
+avatar = "/static/avatar/sunli.jpeg"
+
 [authors.shijicheng]
 name = "Jicheng Shi"
 
@@ -81,13 +88,106 @@ Working on [GreptimeDB](https://github.com/greptimeteam/greptimedb)
 
 [authors.greptime-team]
 name = "Greptime Team"
+team = true
 bio = """
-Greptime is founded in April 2022 with two main offerings: [GreptimeDB](https://github.com/greptimeteam/greptimedb) and Greptime Cloud. 
-- Greptime DB is an open-source, cloud-native time series database with powerful analytical features; 
-- Greptime Cloud is a SaaS solution built on GreptimeDB. 
+Greptime was founded in April 2022 with two main offerings: [GreptimeDB](https://github.com/greptimeteam/greptimedb) and Greptime Cloud.
+
+- Greptime DB is an open-source, cloud-native time series database with powerful analytical features;
+- Greptime Cloud is a SaaS solution built on GreptimeDB.
 
 We are passionate about helping users find real-time values from their time series data with our tools.
 
 - [GitHub](https://github.com/greptimeteam)
 - [Website](https://greptime.com)
+"""
+
+[authors.xxchan]
+name = "xxchan"
+avatar = "/static/avatar/xxchan.png"
+bio = """
+- [GitHub](https://github.com/xxchan)
+- [Blog](https://xxchan.github.io)
+"""
+
+[authors.manpacket]
+name = "Michael Baykov"
+bio = """
+As an experienced Haskell programmer and contributor, I want to introduce Category Theory and
+bring a new flexible and practical development approach to Rust.
+
+- [GitHub](https://github.com/pacak)
+"""
+
+[authors.xuanwo]
+avatar = "/static/avatar/xuanwo.jpeg"
+editor = true
+bio = """
+- [GitHub](https://github.com/Xuanwo)
+- [Blog](https://xuanwo.io)
+"""
+
+[authors.wangrunji]
+name = "wangrunji"
+avatar = "/static/avatar/wangrunji.jpeg"
+bio = """
+- [GitHub](https://github.com/wangrunji0408)
+"""
+
+[authors.boshen]
+name = "Boshen"
+bio = """
+- [GitHub](https://github.com/Boshen)
+"""
+
+[authors.robjtede]
+avatar = "/static/avatar/robjtede.jpeg"
+
+[authors.PsiACE]
+name = "PsiACE"
+avatar = "/static/avatar/psiace.jpg"
+bio = """
+- [GitHub](https://github.com/psiace)
+"""
+
+[authors.databend]
+name = "Databend"
+avatar = "/static/avatar/databend.svg"
+team = true
+bio = """
+[Databend](https://github.com/datafuselabs/databend/) is a modern cloud data warehouse focusing on reducing cost and complexity for your massive-scale analytics needs. Open source alternative to Snowflake.
+
+Also available in the cloud: <https://app.databend.com>
+"""
+
+[authors.tennyzhuang]
+name = "tennyzhuang"
+bio = """
+- [GitHub](https://github.com/TennyZhuang)
+"""
+
+[authors.lei]
+name = "Lei Huang"
+bio = """
+Working on [GreptimeDB](https://github.com/greptimeteam/greptimedb)
+
+- [GitHub](https://github.com/v0y4g3r)
+- [Blog](https://huanglei.rocks/)
+"""
+
+[authors.jhpratt]
+avatar="/static/avatar/jhpratt.png"
+
+[authors.TOETOE55]
+name = "TOETOE55"
+bio = """
+- [GitHub](https://github.com/TOETOE55)
+"""
+
+[authors.jiacai2050]
+name = "Jiacai Liu"
+bio = """
+- [GitHub](https://github.com/jiacai2050)
+- [Mastodon](https://mastodon.social/@liujiacai)
+- [Twitter](https://twitter.com/liujiacai)
+- [Blog](https://en.liujiacai.net/)
 """

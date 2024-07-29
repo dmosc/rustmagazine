@@ -1,0 +1,73 @@
+
+slug = "issue-2"
+number = 2
+title = "Issue 2"
+cover = "/static/ferris/2.jpeg"
+pub_date = "2023-03-08"
+publish = true
+
+[[article]]
+file = "optimize-binary-search.md"
+title = "Optimize Binary Search of Rust"
+author = "folyd"
+pub_date = "2023-02-11"
+topic = ["pr-demystifying", "optimization"]
+publish = true
+featured = true
+
+[[article]]
+file = "sunli.md"
+title = "Interview with Sunli"
+author = ["folyd", "sunli"]
+topic = ["interview"]
+pub_date = "2023-02-15"
+publish = true
+featured = true
+
+[[article]]
+file = "optimize-rust-comptime.md"
+title = "Stupidly effective ways to optimize Rust compile time"
+author = "xxchan"
+topic = ["optimization"]
+pub_date = "2023-02-18"
+publish = true
+featured = true
+canonical = "https://xxchan.github.io/cs/2023/02/17/optimize-rust-comptime-en.html"
+i18n.zh = { file = "optimize-rust-comptime-zh.md", title = "我如何动动小手就让 CI 时间减少了 10 分钟" }
+
+[[article]]
+file = "applicative-parsing.md"
+title = "Using Category Theory to parse command line options"
+author = ["manpacket"]
+topic = ["tutorial"]
+publish = true
+featured = true
+pub_date = "2023-02-23"
+
+[[article]]
+file = "how-i-designed-the-api-for-backon-a-user-friendly-retry-crate.md"
+title = "How I Designed the API for Backon, a User-Friendly Retry Crate"
+author = "xuanwo"
+topic = ["tutorial", "async"]
+pub_date = "2023-03-02"
+publish = true
+featured = true
+canonical = "https://xuanwo.io/reports/2023-09/"
+
+[[article]]
+file = "demystifying-rust-lifetime-with-chatgpt.md"
+title = "Demystifying Rust Lifetimes: A Conversation with ChatGPT"
+author = ["handongzhang"]
+pub_date = "2023-03-05"
+publish = true
+featured = true
+
+[[article]]
+file = "write-a-sql-optimizer-using-egg.md"
+title = "Write a SQL Optimizer using Egg"
+author = "wangrunji"
+topic = ["tutorial", "database", "optimizer"]
+pub_date = "2023-03-07"
+publish = true
+featured = true
+i18n.zh = { file = "write-a-sql-optimizer-using-egg-zh.md", title = "用 Egg 实现 SQL 优化器" }

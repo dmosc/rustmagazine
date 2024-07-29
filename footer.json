@@ -1,0 +1,67 @@
+{
+    "social": [
+        {
+            "name": "GitHub",
+            "image": "/static/github.svg",
+            "url": "https://github.com/RustMagazine/rustmagazine"
+        },
+        {
+            "name": "Twitter",
+            "image": "/static/twitter.svg",
+            "url": "https://twitter.com/rustmagazineorg"
+        },
+        {
+            "name": "Discord",
+            "image": "/static/discord.svg",
+            "url": "https://discord.gg/DdwgBuReJe"
+        }
+    ],
+    "column": {
+        "reviewers": [
+            {
+                "name": "@Macko76",
+                "url": "https://github.com/macko76"
+            },
+            {
+                "name": "@Michael Johann",
+                "url": "https://github.com/malagant"
+            },
+            {
+                "name": "@Mfrw",
+                "url": "https://github.com/mfrw"
+            },
+            {
+                "name": "@Paul Tuck",
+                "url": "https://github.com/pau1tuck"
+            }
+        ],
+        "magazine": [
+            {
+                "name": "All topics",
+                "url": "/topics"
+            },
+            {
+                "name": "All authors",
+                "url": "/authors"
+            }
+        ],
+        "more": [
+            {
+                "name": "About",
+                "url": "/about"
+            },
+            {
+                "name": "FAQ",
+                "url": "/faq"
+            },
+            {
+                "name": "Open Collective",
+                "url": "https://opencollective.com/rustmagazine"
+            },
+            {
+                "name": "How to contribute",
+                "url": "/contribution"
+            }
+        ]
+    }
+}

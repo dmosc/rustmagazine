@@ -1,17 +1,18 @@
 # Rust Magazine
 
+[![license-mit](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/RustMagazine/rustmagazine/blob/main/LICENSE)
+[![Discord](https://img.shields.io/discord/1078667135309594654?label=chat&logo=discord)](https://discord.gg/DdwgBuReJe)
+
 A publication dedicated to the Rust programming language.
 
 https://rustmagazine.org
 
-## Call for editors
+## Sponsor us
 
-See [#4](https://github.com/RustMagazine/rustmagazine/issues/4).
+[![](https://opencollective.com/rustmagazine/tiers/reader.svg?avatarHeight=120)](https://opencollective.com/rustmagazine)
 
-## Call for articles
+## License
 
-See [#5](https://github.com/RustMagazine/rustmagazine/issues/5).
+- The source code of the magazine is licensed under the [MIT LICENSE](./LICENSE).
 
-## Contribute to magazine
-
-https://rustmagazine.org/contribution/
+- The content of the magazine is licensed under the [CC BY-NC-SA 4.0 LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/) by default unless otherwise specified.

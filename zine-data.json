@@ -1,19 +1,99 @@
 {
   "urlPreviews": {
+    "https://crates.io/crates/bpaf": [
+      "bpaf - crates.io",
+      "A simple Command Line Argument Parser with parser combinators",
+      "https://crates.io/assets/og-image.png"
+    ],
+    "https://github.com/Boshen/oxc": [
+      "GitHub - Boshen/oxc: The JavaScript Oxidation Compiler -> Linter",
+      "The JavaScript Oxidation Compiler -> Linter. Contribute to Boshen/oxc development by creating an account on GitHub.",
+      "https://opengraph.githubassets.com/2c5181ef0e49cd8cf380b484ddc24f0ee8a3ec6b4ad2c7b6132be6295a01437b/Boshen/oxc"
+    ],
     "https://github.com/Rust-for-Linux/linux": [
       "Rust-for-Linux/linux",
       "Adding support for the Rust language to the Linux kernel. - GitHub",
       "https://opengraph.githubassets.com/da51017fd78fd030005cefcdf108cc1e30c5dd9bff63a47e5970e644baf997b5/Rust-for-Linux/linux"
+    ],
+    "https://github.com/Xuanwo/backon": [
+      "GitHub - Xuanwo/backon: Retry with backoff without effort.",
+      "Retry with backoff without effort. Contribute to Xuanwo/backon development by creating an account on GitHub.",
+      "https://opengraph.githubassets.com/da3c5354a6e443e8d98948564e19e7f4d261d9ebe2727f3dae9881a65b05fb2f/Xuanwo/backon"
+    ],
+    "https://github.com/async-graphql/async-graphql": [
+      "GitHub - async-graphql/async-graphql: A GraphQL server library implemented in Rust",
+      "A GraphQL server library implemented in Rust. Contribute to async-graphql/async-graphql development by creating an account on GitHub.",
+      "https://opengraph.githubassets.com/a3613d90408005e2e1b9323a30ba15151184685a902bfa501fa7d1bb67d04e53/async-graphql/async-graphql"
+    ],
+    "https://github.com/datafuselabs/databend/issues/6180": [
+      "split databend-query to multiple crates · Issue #6180 · datafuselabs/databend · GitHub",
+      "Summary Now Databend-Query is a rather large crate and we had to waste a lot of time on compiling and linking. It's time to split it up into a few relatively small crates. Related #4399",
+      "https://opengraph.githubassets.com/855cd62b49753184fd23c301b3da40402c443696013761c9ec887426aea4e548/datafuselabs/databend/issues/6180"
+    ],
+    "https://github.com/duo-rs/duo": [
+      "GitHub - duo-rs/duo: Observability duet: Logging and Tracing",
+      "Observability duet: Logging and Tracing. Contribute to duo-rs/duo development by creating an account on GitHub.",
+      "https://opengraph.githubassets.com/ec2f377627caf39b7257e864c34fdd9442c582b6406287ca42a97f9d39dddb79/duo-rs/duo"
+    ],
+    "https://github.com/egraphs-good/egg": [
+      "GitHub - egraphs-good/egg: egg is a flexible, high-performance e-graph library",
+      "egg is a flexible, high-performance e-graph library - GitHub - egraphs-good/egg: egg is a flexible, high-performance e-graph library",
+      "https://opengraph.githubassets.com/f583a5edadcea6c19dfc54b6e93d2235480606c8ca18ac9d9b1cbaaef0484f06/egraphs-good/egg"
+    ],
+    "https://github.com/mozilla/sccache": [
+      "GitHub - mozilla/sccache: sccache is ccache with cloud storage",
+      "sccache is ccache with cloud storage. Contribute to mozilla/sccache development by creating an account on GitHub.",
+      "https://opengraph.githubassets.com/b01339bd81ff2a776c3e5f704c0e86d73f5ae7f17c5c9fb8ae8f7e51a95d8959/mozilla/sccache"
+    ],
+    "https://github.com/poem-web/poem": [
+      "GitHub - poem-web/poem: A full-featured and easy-to-use web framework with the Rust programming language.",
+      "A full-featured and easy-to-use web framework with the Rust programming language. - GitHub - poem-web/poem: A full-featured and easy-to-use web framework with the Rust programming language.",
+      "https://opengraph.githubassets.com/73cca9a4b04114708a5be9cf2ba876942219bb37b2358cd01d17d44b1e6f45c3/poem-web/poem"
+    ],
+    "https://github.com/risinglightdb/sql-optimizer-labs": [
+      "GitHub - risinglightdb/sql-optimizer-labs: 🚧 Build a SQL optimizer in 1000 lines of Rust using egg.",
+      "🚧 Build a SQL optimizer in 1000 lines of Rust using egg. - GitHub - risinglightdb/sql-optimizer-labs: 🚧 Build a SQL optimizer in 1000 lines of Rust using egg.",
+      "https://opengraph.githubassets.com/4d62c05c142ab0f3e53557b5a7239ccc2470ad57c036fb866eca879a14458703/risinglightdb/sql-optimizer-labs"
     ],
     "https://github.com/rust-lang/rust/pull/104435": [
       "`VecDeque::resize` should re-use the buffer in the passed-in element by scottmcm · Pull Request #104435 · rust-lang/rust · GitHub",
       "",
       "https://opengraph.githubassets.com/bff46e9c46a3ba4c1353931657eaef937f0bbee83cbab257cbce435f5781687d/rust-lang/rust/pull/104435"
     ],
+    "https://github.com/rust-lang/rust/pull/74024": [
+      "Improve slice.binary_search_by()'s best-case performance to O(1) by Folyd · Pull Request #74024 · rust-lang/rust · GitHub",
+      "This PR aimed to improve the slice.binary_search_by()'s best-case performance to O(1).\nNoticed\nI don't know why the docs of binary_search_by said \"If there are multiple matches, then any one of the ma",
+      "https://opengraph.githubassets.com/d65ab523be84a75f559441723a6b9725d967c3cb76c9c28c6f33b1c9619363bc/rust-lang/rust/pull/74024"
+    ],
+    "https://github.com/servo/string-cache/pull/268": [
+      "feat: use bucket mutex instead of global mutex for dynamic set by Boshen · Pull Request #268 · servo/string-cache · GitHub",
+      "Background:\nI'm working a concurrent program using swc to parse files in parallel. swc uses string-cache.\nI have found the global mutex in the dynamic set being the major performance bottleneck for ou",
+      "https://opengraph.githubassets.com/a83189ee3a2852575aee40e0671d5375b45eedb9744be6ebd0844754e55f4b8d/servo/string-cache/pull/268"
+    ],
     "https://github.com/skyzh/mini-lsm": [
       "skyzh/mini-lsm",
       "A tutorial of building an LSM-Tree storage engine in a week!- GitHub",
       "https://opengraph.githubassets.com/83c82d82a7ab5be32dc4bf96da23f2d066f84fc56aadcfc8e3e866e1472171a9/skyzh/mini-lsm"
+    ],
+    "https://github.com/time-rs/time": [
+      "GitHub - time-rs/time: The most used Rust library for date and time handling.",
+      "The most used Rust library for date and time handling. - GitHub - time-rs/time: The most used Rust library for date and time handling.",
+      "https://opengraph.githubassets.com/05a44fc8533b2916cb80bd6d41cad5ed9159ca347d22b2d9a3bcbd882574c351/time-rs/time"
+    ],
+    "https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021": [
+      "A Polkadot Postmortem - 24.05.2021",
+      "On 24 May 2021, Polkadot nodes failed with an out of memory (OOM) error on block 5,202,216. This block contained an on-chain solution to the validator election, which is normally computed off-chain an",
+      "https://cms.polkadot.network/content/images/2021/05/image1.png"
+    ],
+    "https://rust.extension.sh": [
+      "Rust Search Extension - The ultimate search extension for Rust",
+      "Search docs, crates, builtin attributes, official books, and error codes, etc in your address bar instantly.",
+      "https://rust.extension.sh/banner.png"
+    ],
+    "https://ziglang.org/": [
+      "⚡\nZig Programming Language",
+      "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software.",
+      "https://ziglang.org/zig-logo-dark.svg"
     ]
   }
 }
